@@ -14,7 +14,7 @@ const Banner = () => {
         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque culpa nam dolorum dolor quaerat natus, voluptates 
         quasi ab animi quidem ullam,commodi voluptatibus earum non libero error vitae quis numquam.</p>
         <button type="button" class="btn btn-dark">EXPLORE COURSES <img src="/arrow-right.svg" alt="" /></button>
-        <h8 className="card-title ms-4"> <img src="play-circle.svg" alt="" /> INTRODUCTION </h8>
+        <h8 className="card-title ms-4"> <img src="play-circle-fill.svg" alt="" /> INTRODUCTION </h8>
       </div>
     </div>
     <div className="col-md-4">

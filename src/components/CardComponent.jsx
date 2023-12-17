@@ -18,19 +18,19 @@ function CardComponent() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item me-2 ">
           <a className="nav-link active" aria-current="page" href="#">
-          <img src="trophy-fill.svg" className='me-2' alt="" />
+          <img src="boxes.svg" className='me-2' alt="" />
             Courses</a>
         </li>
         <li className="nav-item me-2">
          
           <a className="nav-link" href="#">
-          <img src="trophy-fill.svg" className='me-2' alt="" />
+          <img src="tablet.svg" className='me-2' alt="" />
             Tutorial</a>
         </li>
         <li className="nav-item me-2">
         
           <a className="nav-link" href="#">
-          <img src="trophy-fill.svg" className='me-2' alt="" />
+          <img src="signpost-split-fill.svg" className='me-2' alt="" />
             Streams</a>
         </li>
         <li className="nav-item me-2">
@@ -38,12 +38,6 @@ function CardComponent() {
           <img src="send-check.svg" className='me-2' alt="" />
             Articles</a>
         </li>
-        <li className="nav-item me-2">
-          <a className="nav-link" href="#">
-          <img src="trophy-fill.svg" className='me-2' alt="" />
-            Tuitorial</a>
-        </li>
-      
       </ul>
       <form className="d-flex align-items-center" role="search">
       <a className="nav-link" href="#">
