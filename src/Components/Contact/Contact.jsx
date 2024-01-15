@@ -16,7 +16,7 @@ const Contact = () => {
              We beleive a good place to live can make your life better</span>
 
 
-                <div className="flexColStart contactModes">
+                <div className="flexColStart contactModes">       
                 {/* first row */}
 
                 <div className="flexStart row">

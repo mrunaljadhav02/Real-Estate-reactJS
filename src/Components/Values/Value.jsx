@@ -43,11 +43,11 @@ const Value = () => {
                             data.map((item, i) => {
                                
                                 return(
-                                    <AccordionItem className= {'accordionItem $(className)'} key={i} uuid={i}>
+                                    <AccordionItem className= {`accordionItem ${className}`} key={i} uuid={i}>
                                         <AccordionItemHeading>
                                             <AccordionItemButton className='flexCenter accordionButton'>
                                                 <AccordionItemState>
-                                                    {({expanded}) => expanded ? setClassName("expanded") : setClassName("colapsed")}
+                                                    {({expanded}) => expanded ? setClassName("expanded") : setClassName("collapsed")}
                                                 </AccordionItemState>
                                                 <div className="flexCenter icon">{item.icon}</div>
                                                 <span className="primaryText"> {item.heading}</span>
@@ -74,4 +74,4 @@ const Value = () => {
   );
 }
 
-export default Value
+export default Value;

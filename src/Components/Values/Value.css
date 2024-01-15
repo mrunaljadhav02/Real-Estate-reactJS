@@ -1,5 +1,5 @@
 .v-container .image-container{
-    border: 8px solid rgba(232 232 232/93%);
+    border: 8px solid rgba(232 232 232 / 93%);
 }
 
 .v-container>div{
@@ -35,6 +35,7 @@
     cursor: pointer;
 }
 .icon{
+    padding: 10px;
    background-color: #eeeeff;
    border-radius: 5px; 
 }
@@ -44,13 +45,13 @@
 .accordionButton .primaryText{
     font-size: 1.1rem;
 }
-/* @media(max-width: 1024px){
+@media(max-width: 1024px){
     .v-container{
         flex-direction: column;
     }
     @media(max-width: 768px){
-        .accordionButton.primaryText{
-            font-size: 8rem;
+        .accordionButton .primaryText{
+            font-size: 0.8rem;
         }
     }
-} */
+}
